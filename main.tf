@@ -3,7 +3,7 @@ resource "aws_instance" "my_vm" {
  ami           = var.ami //Ubuntu AMI
  instance_type = var.instance_type
 key_name      = "Oasis.pem" 
-security_groups ="oasis-jenkins-4"
+security_groups =["oasis-jenkins-4"]
 #vpc_security_group_ids = [aws_security_group.example.id]
  tags = {
    Name = var.name_tag,
