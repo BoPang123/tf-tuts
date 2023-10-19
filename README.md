@@ -19,5 +19,6 @@ jenkins server ip: http://54.198.255.241:8080
 jenkins server ip: http://54.198.255.241:8080
 可以在这个readme记录提交时间,提交内容和提交者，触发重新构建。
 
-commit 1: 2023/10/19 15:45 修改readme 庞博
-commit 2: 2023/10/19 15:55 测试 庞博
+commit 1: 2023/10/19 15:45 修改readme pb
+commit 2: 2023/10/19 15:55 测试 pb
+commit 3: 2023/10/19 17:01 测试新docker image pb
