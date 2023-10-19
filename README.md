@@ -14,7 +14,8 @@ jenkins server ip: http://54.198.255.241:8080
 自动化拉取github中储存的terraform脚本，
 自动化部署ec2 instance，
 自动化部署的同时用脚本在新部署的ec2上安装docker,
-拉取dockerhub上储存的springboot的docker image,再运行
+拉取dockerhub上储存的springboot的docker image,再运行。
+
 这个仓库用于存储terraform脚本。如果提交到这个repo, jenkins会重新构建实例。jenkins将每两分钟检查一次新提交。
 jenkins server ip: http://54.198.255.241:8080
 可以在这个readme记录提交时间,提交内容和提交者，触发重新构建。
@@ -22,3 +23,4 @@ jenkins server ip: http://54.198.255.241:8080
 commit 1: 2023/10/19 15:45 修改readme pb
 commit 2: 2023/10/19 15:55 测试 pb
 commit 3: 2023/10/19 17:01 测试新docker image pb
+commit 4: 2023/10/19 18:09 测试新docker image pb
